@@ -1,203 +1,390 @@
 <!DOCTYPE html>
-<html>
+<html class="dark">
 
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mir & Co Production</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
-  <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.png" />
-  <link rel="stylesheet" media="all" href="assets/application.css" />
-  <script src="assets/application.js"></script>
+  <link href="output.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
 </head>
 
-<body>
-  <div class="header">
-    <div class="wrapper flex-line-cent">
-      <div class="logo">
-        <a href="./index.html">
-          <img src="assets/logo.png" alt="Logo" />
-        </a> </div>
-      <div class="main-menu">
-        <nav>
-          <ul class="top-menu">
-            <li>
-              <a href="./index.html">Головна</a>
-            </li>
-
-            <li>
-            <li>
-              <a href="">Хто ми</a>
-              <ul class="submenu">
-                <li>
-                  <a href="./uk/about.html">Про нас</a>
-                </li>
-                <li>
-                  <a href="./uk/clients.html">Клієнти</a>
-                </li>
-                <li>
-                  <a href="./uk/team.html">Команда</a>
-                </li>
-              </ul>
-            </li>
-            </li>
-
-            <li>
-              <a href="">Роботи</a>
-              <ul class="submenu">
-                <li><a href="./uk/documentary.html">Документальне кіно</a></li>
-                <li><a href="./uk/music-video.html">МУЗИЧНЕ ВІДЕО</a></li>
-                <li><a href="./uk/video-ads.html">ВІДЕОРЕКЛАМА</a></li>
-                <li><a href="./uk/image-videos.html">ІМІДЖЕВЕ ВІДЕО</a></li>
-                <li><a href="./uk/animation.hml">АНІМАЦІЯ</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#" class="modal-contact">Контакти</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="for-slick"></div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="main-video-block">
-    <video autoplay loop muted width="100%">
-      <source src="video.mp4" type="video/mp4">
-      <source src="video.webm" type="video/webm">
-      <source src="video.ogv" type="video/ogg">
-    </video>
-  </div>
-
-  <div class="main">
-
-    <div class="company-info flex-line">
-      <div class="what-block">Що ми робимо</div>
-      <div class="what-text">Mir &amp; Co Production з 2013 реалізує повний цикл виробництва відео- і фотоматеріалів. Ви
-        можете довірити нам рішення ваших завдань на будь-якому з етапів від ідеї до монтажу!</div>
-    </div>
-    <div class="service-block services flex-line-jus-cent">
-
-
-      <div class="service-item">
-
-        <div class="services-item">
-          <a href="./uk/documentary.html">
-            <figure>
-              <img src="./assets/doc.jpg" />
-              <figcaption>
-                <h2>Документальне кіно</h2>
-              </figcaption>
-            </figure>
-          </a> </div>
-        <span class="serv-desc">Однією із основних видів нашої діяльності є виробництво документального кіно. </span>
-      </div>
-
-
-      <div class="service-item">
-
-        <div class="services-item">
-          <a href="./uk/music-video.html">
-            <figure>
-              <img src="./assets/clip.jpg" />
-              <figcaption>
-                <h2>МУЗИЧНЕ ВІДЕО</h2>
-              </figcaption>
-            </figure>
-          </a> </div>
-        <span class="serv-desc">Музичне відео призначене для розповсюдження та популяризації вашої музичної
-          композиції.</span>
-      </div>
-
-
-      <div class="service-item">
-
-        <div class="services-item">
-          <a href="./uk/video-ads.html">
-            <figure>
-              <img src="./assets/ads.jpg" />
-              <figcaption>
-                <h2>ВІДЕОРЕКЛАМА</h2>
-              </figcaption>
-            </figure>
-          </a> </div>
-        <span class="serv-desc">Форма реклами, розташована в мережі Інтернет або на ТБ, спрямована на створення імені
-          компанії, просування послуг або товарів, надання інформації з метою підвищення продаж.</span>
-      </div>
-
-
-      <div class="service-item">
-
-        <div class="services-item">
-          <a href="./uk/image-videos.html">
-            <figure>
-              <img src="./assets/image.jpg" />
-              <figcaption>
-                <h2>ІМІДЖЕВЕ ВІДЕО</h2>
-              </figcaption>
-            </figure>
-          </a> </div>
-        <span class="serv-desc">Вид реклами, спрямований на підвищення репутації компанії серед потенційних споживачів
-          або партнерів, що може позитивно вплинути на лояльності до того чи іншого товару або послуги.
-        </span>
-      </div>
-
-
-      <div class="service-item">
-
-        <div class="services-item">
-          <a href="./uk/animation.html">
-            <figure>
-              <img src="./assets/animation.png" />
-              <figcaption>
-                <h2>АНІМАЦІЯ</h2>
-              </figcaption>
-            </figure>
-          </a> </div>
-        <span class="serv-desc">Ми працюємо з різноманітними видами анімації: 2D, 3D, пластилінова, картонна,
-          комп&#39;ютерна та інші. Анімація може бути, як самостійним так і прекрасним доповненням до відеоролика у
-          вигляді графічних та інфографічних вставок.</span>
-      </div>
-
-
-    </div>
-  </div>
-
-  <div class="scroll-block">
-    <div class="mouse"></div>
-  </div>
-  
-  <div class="footer">
-    <div class="wrapper flex-line-cent">
-      <div class="footer-info">
-        <a href="mailto:kirill.nechmonya@gmail.com">kirill.nechmonya@gmail.com</a>
-        <div class="phone">
-          <a href="tel:+380503824027">+38 050 382 40 27</a><br>
-          <a href="tel:+380632478121">+38 063 247 81 21</a>
+<body class="bg-black">
+  <div class="flex items-center justify-center w-screen h-screen">
+    <div class="px-4 lg:py-12">
+      <div class="lg:gap-4 lg:flex">
+        <div class="flex flex-col items-center justify-center">
+          <div>
+            <h1 class="font-light text-white text-6xl py-1 leading-4">mir&co</h1>
+            <h1 class="font-light text-white text-6xl py-1">production</h1>
+          </div>
+          <div class="w-full h-2 my-2">
+            <div class="blue w-full h-1"></div>
+            <div class="yellow w-full h-1"></div>
+          </div>
+          <div class="flex flex-row items-center justify-between w-full py-1">
+            <a class='cursor-pointer leading-4 text-2xl group text-white transition-all duration-300 ease-in-out relative'
+              data-modal-toggle="portfolioModal">
+              <span
+                class='font-thin bg-left-bottom bg-gradient-to-r from-white to-blue-100 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out'>
+                portfolio
+              </span>
+            </a>
+            <a class='cursor-pointer leading-4 text-2xl group text-white transition-all duration-300 ease-in-out relative'
+              data-modal-toggle="teamAndContactsModal">
+              <span
+                class='font-thin bg-left-bottom bg-gradient-to-r from-white to-blue-100 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out'>
+                team & contacts
+              </span>
+            </a>
+          </div>
         </div>
       </div>
-      <div class="soc">
-        <a target="_blank" href="https://vimeo.com/mircoproduction"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
-        <a target="_blank" href="https://www.facebook.com/mircoproduction/"><i class="fa fa-facebook"
-            aria-hidden="true"></i></a>
-        <a target="_blank" href="https://www.instagram.com/mircoproduction/"><i class="fa fa-instagram"
-            aria-hidden="true"></i></a>
+    </div>
+  </div>
+
+
+  <!-- Team & Contacts modal -->
+  <div id="teamAndContactsModal" tabindex="-1" aria-hidden="true"
+    class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-modal md:h-full">
+    <div class="relative w-full w-full h-full">
+      <!-- Modal content -->
+      <div class="relative p-4 text-center bg-white rounded-lg shadow dark:bg-black sm:p-5">
+        <button type="button"
+          class="text-gray-400 absolute top-2.5 right-2.5 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white"
+          data-modal-toggle="teamAndContactsModal">
+          <svg aria-hidden="true" class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+              clip-rule="evenodd"></path>
+          </svg>
+          <span class="sr-only">Close modal</span>
+        </button>
+        <section>
+          <div class="mx-auto max-w-screen-sm text-center mb-8 mt-16">
+            <h2 class="mb-4 text-4xl font-light text-black dark:text-white">Mir&Co Production</h2>
+          </div>
+          <div class="mt-6 sm:mt-20">
+            <div class="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
+              <div
+                class="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl rotate-2">
+                <img alt="" sizes="(min-width: 640px) 18rem, 11rem"
+                  src="./assets/images/SLIDER_1.jpg"
+                  width="3744" height="5616" decoding="async" data-nimg="1"
+                  class="absolute inset-0 h-full w-full object-cover" loading="lazy" style="color:transparent"></div>
+              <div
+                class="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl -rotate-2">
+                <img alt="" sizes="(min-width: 640px) 18rem, 11rem"
+                  src="./assets/images/SLIDER_2.jpg"
+                  width="3936" height="2624" decoding="async" data-nimg="1"
+                  class="absolute inset-0 h-full w-full object-cover" loading="lazy" style="color:transparent"></div>
+              <div
+                class="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl rotate-2">
+                <img alt="" sizes="(min-width: 640px) 18rem, 11rem"
+                  src="./assets/images/SLIDER_3.jpg"
+                  width="5760" height="3840" decoding="async" data-nimg="1"
+                  class="absolute inset-0 h-full w-full object-cover" loading="lazy" style="color:transparent"></div>
+              <div
+                class="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl rotate-2">
+                <img alt="" sizes="(min-width: 640px) 18rem, 11rem"
+                  src="./assets/images/SLIDER_4.jpg"
+                  width="2400" height="3000" decoding="async" data-nimg="1"
+                  class="absolute inset-0 h-full w-full object-cover" loading="lazy" style="color:transparent"></div>
+              <div
+                class="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl -rotate-2">
+                <img alt="" sizes="(min-width: 640px) 18rem, 11rem"
+                  src="./assets/images/SLIDER_5.jpg"
+                  width="4240" height="2384" decoding="async" data-nimg="1"
+                  class="absolute inset-0 h-full w-full object-cover" loading="lazy" style="color:transparent"></div>
+            </div>
+          </div>
+          <div class="py-16 px-4 mx-auto max-w-screen-md lg:px-6 text-left">
+            <p class="font-thin text-black mb-4 text-2xl dark:text-white">
+              <span class="font-bold">MIR&CO PRODUCTION</span> was founded in 2014 after the first Russian invasion in
+              Ukraine. Then a like-minded group of cinematographers focused their work on making documentaries mainly on
+              military themes to share important events with the world. All of the studio's films have participated in a
+              number of festivals and broadcasted on TV channels in different countries.
+            </p>
+            <p class="font-thin text-black mb-4 text-2xl dark:text-white">
+              Since 2020, MIR&CO PRODUCTION has also started creating feature films, music videos and advertising. The
+              specialty of our company is the author's view, which reveals any story like a movie.
+            </p>
+            <p class="font-thin text-black mb-4 text-2xl dark:text-white">
+              Today the main goal of the studio is not only to continue telling the painful stories of the war, which
+              continues to this day, but also to share the multifaceted Ukrainian culture and develop Ukrainian cinema
+              on the world stage.
+            </p>
+          </div>
+
+          <div class="mx-auto max-w-screen-sm text-center mb-12">
+            <h2 class="mb-4 text-4xl font-light text-black dark:text-white">Meet the Team</h2>
+          </div>
+          <div class="grid gap-8 mb-6 lg:mb-16 mt-8 lg:grid-cols-2 max-w-screen-xl mx-auto">
+            <div class="items-center bg-zinc-300 rounded-lg shadow sm:flex dark:bg-zinc-900 dark:border-gray-700">
+              <img loading="lazy"
+                class="object-cover w-full h-auto lg:h-72 lg:w-56 rounded-lg sm:rounded-none sm:rounded-l-lg"
+                src="./assets/images/kyrylo.jpg">
+              <div class="p-5 w-full">
+                <h3 class="text-xl font-bold text-gray-900 dark:text-white">
+                  Kyrylo Nechmonia
+                </h3>
+                <span class="text-gray-500 dark:text-gray-400 mb-6 block">Executive producer</span>
+                <div>
+                  <a class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400" href="tel:+380632478121">+38 063
+                    247 81 21</a>
+                </div>
+                <div>
+                  <a class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400"
+                    href="mailto:kirill.nechmonya@gmail.com">kirill.nechmonya@gmail.com</a>
+                </div>
+              </div>
+            </div>
+            <div class="items-center bg-zinc-300 rounded-lg shadow sm:flex dark:bg-zinc-900 dark:border-gray-700">
+              <img loading="lazy"
+                class="object-cover w-full h-auto lg:h-72 lg:w-56 rounded-lg sm:rounded-none sm:rounded-l-lg"
+                src="./assets/images/myroslav.jpg">
+              <div class="p-5 w-full">
+                <h3 class="text-xl font-bold text-gray-900 dark:text-white">
+                  Myroslav Hai
+                </h3>
+                <span class="text-gray-500 dark:text-gray-400 mb-6 block">Executive producer</span>
+                <div>
+                  <a class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400" href="tel:+380503824027">+380 50
+                    382 40 27</a>
+                </div>
+                <div>
+                  <a class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400"
+                    href="mailto:miroslavgai@gmail.com">miroslavgai@gmail.com</a>
+                </div>
+              </div>
+            </div>
+            <div class="items-center bg-zinc-300 rounded-lg shadow sm:flex dark:bg-zinc-900 dark:border-gray-700">
+              <img loading="lazy"
+                class="object-cover w-full h-auto lg:h-72 lg:w-56 rounded-lg sm:rounded-none sm:rounded-l-lg"
+                src="./assets/images/anhelina.jpg">
+              <div class="p-5 w-full">
+                <h3 class="text-xl font-bold  text-gray-900 dark:text-white">
+                  Anhelina Litvin
+                </h3>
+                <span class="text-gray-500 dark:text-gray-400 mb-6 block">Line producer</span>
+                <div>
+                  <a class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400" href="tel:+380631628911">+38 063
+                    162 89 11</a>
+                </div>
+                <div>
+                  <a class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400"
+                    href="mailto:anhelina.litvin@gmail.com">anhelina.litvin@gmail.com</a>
+                </div>
+              </div>
+            </div>
+            <div class="items-center bg-zinc-300 rounded-lg shadow sm:flex dark:bg-zinc-900 dark:border-gray-700">
+              <img loading="lazy"
+                class="object-cover w-full h-auto lg:h-72 lg:w-56 rounded-lg sm:rounded-none sm:rounded-l-lg"
+                src="./assets/images/svitlana.jpg">
+              <div class="p-5 w-full">
+                <h3 class="text-xl font-bold  text-gray-900 dark:text-white">
+                  Svitlana Nikolienko
+                </h3>
+                <span class="text-gray-500 dark:text-gray-400 mb-6 block">Assistant producer</span>
+                <div>
+                  <a class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400" href="tel:+380994603920">+38 099
+                    460 39 20</a>
+                </div>
+                <div>
+                  <a class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400"
+                    href="mailto:svetlana.nikolenk@gmail.com">svetlana.nikolenk@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   </div>
-  <div class="contact-block">
-    <div class="contact-info">
-      <a href="tel:+380503824027">+38 050 382 40 27</a>
-      <a href="tel:+380632478121">+38 063 247 81 21</a>
-      <a href="mailto:kirill.nechmonya@gmail.com">kirill.nechmonya@gmail.com</a>
-    </div>
-    <div class="logo-wrapper">
-      <img src="assets/cont-logo.png" />
+
+  <!-- Portfolio modal -->
+  <div id="portfolioModal" tabindex="-1" aria-hidden="true"
+    class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-modal md:h-full">
+    <div class="relative w-full w-full h-full">
+      <!-- Modal content -->
+      <div class="relative p-4 text-center bg-white rounded-lg shadow dark:bg-black sm:p-5">
+        <button type="button"
+          class="text-gray-400 absolute top-2.5 right-2.5 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white"
+          data-modal-toggle="portfolioModal">
+          <svg aria-hidden="true" class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+              clip-rule="evenodd"></path>
+          </svg>
+          <span class="sr-only">Close modal</span>
+        </button>
+        <section>
+          <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+            <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+              <h2 class="mb-4 text-4xl font-light text-black dark:text-white">Documentaries</h2>
+            </div>
+            <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
+              <div class="aspect-w-16 aspect-h-9">
+                <iframe loading="lazy" width="560" height="315"
+                  src="https://www.youtube.com/embed/EZo0O0SDl1s?controls=0" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div>
+              <div class="aspect-w-16 aspect-h-9">
+                <iframe loading="lazy" width="560" height="315"
+                  src="https://www.youtube.com/embed/GTFgH65UQww?controls=0" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div>
+              <div class="aspect-w-16 aspect-h-9">
+                <iframe loading="lazy" width="560" height="315"
+                  src="https://www.youtube.com/embed/1VhZ3rdNtCM?controls=0" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div>
+              <div class="aspect-w-16 aspect-h-9">
+                <iframe loading="lazy" width="560" height="315"
+                  src="https://www.youtube.com/embed/BBJAb4m2Yeg?controls=0" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div>
+              <div class="aspect-w-16 aspect-h-9">
+                <iframe loading="lazy" width="560" height="315"
+                  src="https://www.youtube.com/embed/Hk32MlNrAsw?controls=0" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div>
+              <div class="aspect-w-16 aspect-h-9">
+                <iframe loading="lazy" width="560" height="315"
+                  src="https://www.youtube.com/embed/6bxXckSGlac?controls=0" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div>
+              <div class="aspect-w-16 aspect-h-9">
+                <iframe loading="lazy" width="560" height="315"
+                  src="https://www.youtube.com/embed/JfuZMXSB8Cg?controls=0" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+              <h2 class="mb-4 text-4xl font-light text-black dark:text-white">Movies & Short films</h2>
+            </div>
+            <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
+              <div class="aspect-w-16 aspect-h-9">
+                <iframe loading="lazy" width="560" height="315"
+                  src="https://www.youtube.com/embed/384utG7bSXY?controls=0" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div>
+              <div class="aspect-w-16 aspect-h-9">
+                <iframe loading="lazy" width="560" height="315"
+                  src="https://www.youtube.com/embed/cuAmP9YvPdQ?controls=0" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div>
+              <div class="aspect-w-16 aspect-h-9">
+                <iframe loading="lazy" width="560" height="315"
+                  src="https://www.youtube.com/embed/jZNml45_K8o?controls=0" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+
+            <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+              <h2 class="mb-4 text-4xl font-light text-black dark:text-white">Music Videos</h2>
+            </div>
+            <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
+              <div class="aspect-w-16 aspect-h-9">
+                <iframe loading="lazy" width="560" height="315"
+                  src="https://www.youtube.com/embed/523c7mbkt5Y?controls=0" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div>
+              <div class="aspect-w-16 aspect-h-9">
+                <iframe loading="lazy" width="560" height="315"
+                  src="https://www.youtube.com/embed/_SV_qf-F120?controls=0" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div>
+              <div class="aspect-w-16 aspect-h-9">
+                <iframe loading="lazy" width="560" height="315"
+                  src="https://www.youtube.com/embed/BHlGyelkhoY?controls=0" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div>
+              <div class="aspect-w-16 aspect-h-9">
+                <iframe loading="lazy" width="560" height="315"
+                  src="https://www.youtube.com/embed/bXFKN-jMauw?controls=0" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div>
+              <div class="aspect-w-16 aspect-h-9">
+                <iframe loading="lazy" width="560" height="315"
+                  src="https://www.youtube.com/embed/4JjZBrW6JPk?controls=0" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+
+            <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+              <h2 class="mb-4 text-4xl font-light text-black dark:text-white">Advertising Videos</h2>
+            </div>
+            <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
+              <div style="padding:52.73% 0 0 0;position:relative;"><iframe
+                  src="https://player.vimeo.com/video/489015680?h=5faac2f745&byline=0&portrait=0"
+                  style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+                  allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+              <script src="https://player.vimeo.com/api/player.js"></script>
+              <div class="aspect-w-16 aspect-h-9">
+                <iframe loading="lazy" width="560" height="315"
+                  src="https://www.youtube.com/embed/eYAFDPrwS9k?controls=0" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div>
+              <div style="padding:56.25% 0 0 0;position:relative;"><iframe
+                  src="https://player.vimeo.com/video/139328672?h=559025fbd9&byline=0&portrait=0"
+                  style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+                  allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+              <script src="https://player.vimeo.com/api/player.js"></script>
+              <div style="padding:56.25% 0 0 0;position:relative;"><iframe
+                  src="https://player.vimeo.com/video/155370781?h=11fe713191&byline=0&portrait=0"
+                  style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+                  allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+              <script src="https://player.vimeo.com/api/player.js"></script>
+              <div style="padding:56.25% 0 0 0;position:relative;"><iframe
+                  src="https://player.vimeo.com/video/177832857?h=43540a1a81&byline=0&portrait=0"
+                  style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+                  allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+              <script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
+        </section>
+      </div>
     </div>
   </div>
-  <div id="overlay"></div>
+
+  <!-- <script src="./node_modules/flowbite/dist/flowbite.js"></script> -->
+  <script src="https://unpkg.com/@themesberg/flowbite@latest/dist/flowbite.bundle.js"></script>
+
+
+</body>
 
 </html>
